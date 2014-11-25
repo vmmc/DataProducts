@@ -1,8 +1,7 @@
 library(shiny)
 shinyUI(
         pageWithSidebar(
-                # Application title
-                headerPanel("Diabetes prediction"),
+                headerPanel("MPG usage prediction"),
                 sidebarPanel(
                         p('Looking at a data set of a collection of cars, we explore the relationship
                            between a set of variables and the miles per gallon (MPG) they consume.'),
